@@ -1,0 +1,40 @@
+body,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+.orange,
+.white,
+.green {
+	height: 100%;
+}
+
+ul>li {
+    height: 33.333vh;
+    /* width: 100vw; */
+}
+
+.orange {
+    background-color: #e67e22;
+}
+
+.green {
+    background-color: green;
+}
+
+.white {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.white h1 {
+	font-size: 50px;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	text-transform: capitalize;
+}
